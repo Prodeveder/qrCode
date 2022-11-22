@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR-CODE | Home</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <header>
+        <h1>QR CODE</h1>
+    </header>
+
+    <div class="card">
+        
+        <div id="icon">
+            <i class="fas fa-qrcode fa-lg"></i>
+        </div>
+        <div class="msg">  <!-- validation message goes--> </div>
+        <form>
+            <input  type="text" placeholder="Enter link...e.g www.google.com" id="input">
+        </form>
+        
+        
+        <select >
+            <option value="156x156">156x156</option>
+            <option value="200x200">200x200</option>
+            <option value="300x300">300x300</option>
+
+        </select>
+
+        <button class="btn">Generate QR Code</button>
+
+        <div id="qrcode"></div>
+
+    </div>
+
+    
+    
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js" integrity="sha512-CNgIRecGo7nphbeZ04Sc13ka07paqdeTu0WR1IM4kNcpmBAUSHSQX0FslNhTDadL4O5SAGapGt4FodqL8My0mA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="app.js"></script>
+</body>
+</html>
