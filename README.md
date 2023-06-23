@@ -1,4 +1,4 @@
-# qrCode using an api to create a QRcode for links: javascript, html, css
+# Simple qrCode generator using an api: javascript, html, css
 # Live Preview: 
 https://s-ciz.github.io/qrCode/
 
